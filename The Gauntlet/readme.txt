@@ -43,6 +43,9 @@ V1.0 released 8/06/2022
 V1.01 released 8/06/2022
 - fixed bug where player death triggerd the program to exit
 
+V1.02 released 8/06/2022
+- fixed bug where player buff did not activate on certain classes
+
 
 
 

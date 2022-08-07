@@ -1257,15 +1257,15 @@ def reset_player():
 
 def player_buff():
     if player_class == "Paladin":
-        player.paladin = player.paladin_buff
+        player.selected = player.paladin_buff
     elif player_class == "Knight":
-        player.knight = player.knight_buff
+        player.selected = player.knight_buff
     elif player_class == "Fighter":
-        player.fighter = player.fighter_buff
+        player.selected = player.fighter_buff
     elif player_class == "Rogue":
-        player.rogue = player.rogue_buff
+        player.selected = player.rogue_buff
     else:
-        player.selected.attack = player.test_buff.attack
+        player.selected = player.test_buff
 
 def reset_player_after_buff():
     if player_class == "Paladin":
