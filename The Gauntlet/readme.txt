@@ -40,6 +40,9 @@ V1.0 released 8/06/2022
 - game is fully functional for all intents and purposes
 - will add more flavor text/story in a future update
 
+V1.01 released 8/06/2022
+- fixed bug where player death triggerd the program to exit
+
 
 
 

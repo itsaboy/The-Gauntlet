@@ -125,8 +125,6 @@ def start_game():
     # Battle Eleven vs Emperor
 
     def end_game():
-        print("Congratulations !!! ")
-        ("")
         play_again = input("Would you like to play again? (yes or no) ")
         if play_again == "yes":
             start_game()
@@ -156,6 +154,7 @@ def start_game():
                 if player.selected.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -220,6 +219,7 @@ def start_game():
                 if player.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -252,6 +252,7 @@ def start_game():
                 if player.selected.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -316,6 +317,7 @@ def start_game():
                 if player.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -348,6 +350,7 @@ def start_game():
                 if player.selected.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -412,6 +415,7 @@ def start_game():
                 if player.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -444,6 +448,7 @@ def start_game():
                 if player.selected.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -508,6 +513,7 @@ def start_game():
                 if player.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -540,6 +546,7 @@ def start_game():
                 if player.selected.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -604,6 +611,7 @@ def start_game():
                 if player.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -636,6 +644,7 @@ def start_game():
                 if player.selected.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -700,6 +709,7 @@ def start_game():
                 if player.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -732,6 +742,7 @@ def start_game():
                 if player.selected.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -796,6 +807,7 @@ def start_game():
                 if player.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -828,6 +840,7 @@ def start_game():
                 if player.selected.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -892,6 +905,7 @@ def start_game():
                 if player.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -924,6 +938,7 @@ def start_game():
                 if player.selected.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -988,6 +1003,7 @@ def start_game():
                 if player.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -1020,6 +1036,7 @@ def start_game():
                 if player.selected.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -1084,6 +1101,7 @@ def start_game():
                 if player.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
@@ -1116,6 +1134,7 @@ def start_game():
                 if player.selected.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues  !")
@@ -1180,6 +1199,7 @@ def start_game():
                 if player.health <= 0:
                     print("")
                     print("You have died !!!")
+                    end_game()
                 else:
                     print("")
                     print("The battle continues !")
